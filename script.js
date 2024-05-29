@@ -6,6 +6,6 @@ for (let i = 0; i < 256; i++) {
   container.appendChild(square);
 
   square.addEventListener('mouseover', (event) => {
-    square.style.backgroundColor = 'red';
+    square.classList.add('hovered');
   });
 }
