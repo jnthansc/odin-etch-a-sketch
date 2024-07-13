@@ -13,7 +13,9 @@
 }
 
 .square {
-  flex: 1 0 6%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 6%;
   aspect-ratio: 1 / 1;
   background-color: pink;
   border: 1px solid black;
